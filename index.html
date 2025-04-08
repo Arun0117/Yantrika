@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="yantrika.css">
+</head>
+
+<body>
+
+    <div class="background-1 " id="sectionhome">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-bg">
+            <a class="navbar-brand" href="#"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" href="#" onclick="display('sectionabout')">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#" onclick="display('sectiondetail')">Events</a>
+                    <a class="nav-link" href="#">More info</a>
+                </div>
+            </div>
+        </nav>
+
+        <div>
+            <h1 class="header-1h text-center">DEPARTMENT OF MECHANICAL ENGINEERING</h1>
+            <p class="p-1h">presents</p>
+        </div>
+        <div>
+            <h1 class="header-2h">YANTRIKA - 2025</h1>
+        </div>
+        <div class="spacing-1h">
+            <div class="text-center">
+                <button class="button-1h " onclick="display('sectiondetail')">Explore Events</button>
+            </div>
+            <div class="d-flex flex-row justify-content-center mt-3">
+                <div class="text-center box-1h ">
+                    <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" class="button-2h"> Register now</a>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <button class="button-1h">More info</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="about-bg  d-flex flex-column justify-content-center" id="sectionabout">
+        <div class="about-box">
+            <h1>ABOUT</h1>
+            <p class="p-about">Welcome to YANTRIKA 2025, it is a technical event, often national in scope, where students,
+                faculty, and industry experts gather to showcase projects,
+                present research, and discuss advancements in the field of mechanical engineering. </p>
+        </div>
+        <div class="text-center" onclick="display('sectionhome')"><button class="about-button">
+                Back
+            </button></div>
+
+    </div>
+
+
+    <div class="background-1d" id="sectiondetail">
+        <div class="d-flex flex-row justify-content-between">
+            <h1 class="header-1d">Technical Events</h1>
+            <button class="button-1d " onclick="display('sectionhome')">Home</button>
+        </div>
+        <div class="box">
+            <h1 class="header-2d">Paper Presentaion</h1>
+            <ul class="style-1d">
+                <li><span class="text-1d">Members : </span> 2 to 3 members per team</li>
+                <li><span class="text-1d">Timing :</span> 5 Mins </li>
+            </ul>
+            <div class="text-center box-1d p-1">
+                <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" class="button-2d "> Register now</a>
+            </div>
+        </div>
+
+        <div class="box mt-3">
+            <h1 class="header-2d">Cad Master</h1>
+            <ul class="style-1d">
+                <li><span class="text-1d">Solo Participation</span> </li>
+                <li><span class="text-1d">Software :</span> Solidworks </li>
+            </ul>
+            <p><span class="text-1d">Note :</span> Cad Master will be conducted by <span class="text-1d">"Pumo Technovations"</span>
+                and Winners gets Scholorship from them to join in their coaching academy</p>
+            <button class="button-1d">Register Now</button>
+        </div>
+
+        <div class="box mt-3">
+            <h1 class="header-2d">Technical quiz</h1>
+            <ul class="style-1d">
+                <li><span class="text-1d">Members : </span> 2 to 4 members per team</li>
+            </ul>
+            <button class="button-1d">Register Now</button>
+        </div>
+
+        <div class="box mt-3">
+            <h1 class="header-2d">Mr.Machinist</h1>
+            <ul class="style-1d">
+                <li><span class="text-1d">Solo Participation</span> </li>
+            </ul>
+            <button class="button-1d">Register Now</button>
+        </div>
+
+
+        <div class="box mt-3">
+            <h1 class="header-2d">Project Expo</h1>
+            <ul class="style-1d">
+                <li><span class="text-1d">Members : </span> 2 to 4 members per team</li>
+                <li><span class="text-1d">Timing :</span> 5 Mins </li>
+            </ul>
+            <button class="button-1d">Register Now</button>
+        </div>
+
+        <div class="box mt-3">
+            <h1 class="header-2d">Multimedia Presentaions</h1>
+            <ul class="style-1d">
+                <li><span class="text-1d">Solo Participation</span> </li>
+            </ul>
+            <button class="button-1d">Register Now</button>
+        </div>
+
+        <div class="box mt-3">
+            <h1 class="header-2d">Ambal Automobile workshop</h1>
+            <ul class="style-1d">
+                <li><span class="text-1d">Fees : </span>500 Rs per person</li>
+            </ul>
+            <p><span class="text-1d">Note :</span> This workshop will be conducted by<span class="text-1d">"Ambal Automobiles."</span>
+                During this worshop students able to practically learn through live demo. </p>
+            <button class="button-1d">Register Now</button>
+        </div>
+
+        <h1 class="header-1d mt-3">Non-Technical Events </h1>
+
+        <div class="box mt-3">
+            <h1 class="header-2d">Snapshot saga</h1>
+            <ul class="style-1d">
+                <li><span class="text-1d">Solo Participation</span> </li>
+            </ul>
+            <p><span class="text-1d">Note :</span><span class="text-1d">"Snapshot saga "</span>
+                is a onspot photography event. Timing will be alloted for the participants in the spot and topic will be given. </p>
+            <button class="button-1d">Register Now</button>
+        </div>
+
+        <div class="box mt-3">
+            <h1 class="header-2d">Watery Rocket</h1>
+            <p><span class="text-1d">Note :</span><span class="text-1d">"Watery Rocket event,"</span>
+                teams build rockets from standard 2-liter plastic bottles, fill them with water, and launch them using pressurized air, aiming for the greatest time aloft or distance. Key rules include using only water and air pressure for propulsion,
+                adhering to weight and size limits, and ensuring rockets remain intact during flight. </p>
+            <button class="button-1d">Register Now</button>
+        </div>
+
+        <div class="box mt-3">
+            <h1 class="header-2d">Memory buzz</h1>
+            <p><span class="text-1d">Note :</span><span class="text-1d"></span>
+            </p>
+            <button class="button-1d">Register Now</button>
+        </div>
+
+        <div class="box mt-3">
+            <h1 class="header-2d">Tap the ballon</h1>
+            <p><span class="text-1d">Note :</span><span class="text-1d"></span>
+            </p>
+            <button class="button-1d">Register Now</button>
+        </div>
+
+        <div class="text-center mt-3">
+            <button class="btn btn-primary" onclick="display('sectionhome')"> Back </button>
+        </div>
+
+    </div>
+
+
+
+
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
